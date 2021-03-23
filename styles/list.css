@@ -12,9 +12,9 @@
 }
 
 .list-spaced>li:hover {
-    border: 1px solid var(--theme100);
-    background-color: var(--theme50);
-    box-shadow: 5px 5px 5px var(--theme100);
+    border: 1px solid var(--theme300);
+    background-color: var(--theme100);
+    box-shadow: 2px 2px 10px var(--theme300);
     cursor: pointer;
 }
 

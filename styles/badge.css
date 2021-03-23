@@ -59,7 +59,6 @@
 
 .badge-status-ard-dnd {
     background-color: var(--failureBg);
-    /* border-radius: 1rem; */
     padding: 0.3rem;
-    box-shadow: 1px 1px 5px var(--theme100), -1px -1px 5px var(--theme100);
+    /* box-shadow: 1px 1px 5px var(--theme100), -1px -1px 5px var(--theme100); */
 }

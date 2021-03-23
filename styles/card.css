@@ -93,7 +93,7 @@
 }
 
 .card-shadow:hover {
-    box-shadow: 5px 5px 20px var(--theme300), -5px -5px 20px var(--theme300);
+    box-shadow: 5px 5px 10px var(--theme300), -5px -5px 10px var(--theme300);
 }
 
 .txt-overlay {
