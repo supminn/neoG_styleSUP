@@ -1,0 +1,81 @@
+.btn {
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.btn-primary {
+    color: var(--primaryTxt);
+    background-color: var(--primaryBg);
+    border: 1px solid var(--primaryTxt);
+}
+
+.btn-primary:hover {
+    border: 1px solid var(--theme800);
+    background-color: var(--theme800);
+}
+
+.btn-secondary {
+    color: var(--secondaryTxt);
+    background-color: var(--secondaryBg);
+    border: 1px solid var(--secondaryTxt);
+}
+
+.btn-secondary:hover {
+    text-decoration: underline;
+}
+
+.btn-light {
+    color: var(--lightTxt);
+    background-color: var(--lightBg);
+    border: 1px solid var(--lightTxt);
+}
+
+.btn-dark {
+    color: var(--darkTxt);
+    background-color: var(--darkBg);
+    border: 1px solid var(--darkTxt);
+}
+
+.btn-link {
+    color: var(--primaryBg);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.btn-link:hover {
+    color: var(--secondaryTxt);
+}
+
+.btn-link:active {
+    color: var(--theme400);
+}
+
+.btn-icon {
+    color: var(--secondaryBg);
+    border: 1px solid var(--secondaryBg);
+    background-color: var(--primaryBg);
+}
+
+.btn-icon:hover {
+    background-color: var(--secondaryBg);
+    border: 1px solid var(--primaryBg);
+    color: var(--primaryBg);
+}
+
+.btn-fab {
+    border-radius: 50%;
+    padding: 1rem 1.15rem;
+    /* position: fixed;
+    bottom: 7%;
+    right: 5%; */
+}
+
+.btn-fab:hover {
+    box-shadow: 1px 1px 5px var(--darkBg), -1px -1px 5px var(--darkBg);
+}

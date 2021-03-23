@@ -1,0 +1,17 @@
+.toast-container{
+    display: none;
+    width: 300px;
+    padding: 0.2rem 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primaryBg);
+    background-color: var(--theme50);
+    box-shadow: 5px 5px 10px var(--theme200),-5px -5px 10px var(--theme200);
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+}
+
+.toast-msg{
+    padding: 0.5rem 0;
+}

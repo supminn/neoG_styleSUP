@@ -1,0 +1,52 @@
+.txt-box {
+    margin: 0.5rem;
+    width: max-content;
+    border-radius: 0.5rem;
+    color: var(--primaryTxt);
+    display: flex;
+}
+
+.txt-input {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    outline: unset;
+    border: 2px solid transparent;
+    color: var(--primaryBg);
+    background-color: var(--theme50);
+}
+
+.txt-input:focus {
+    border: 2px solid var(--primaryBg);
+}
+
+.txt-icon {
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--primaryBg);
+    cursor: pointer;
+}
+
+.txt-area {
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+}
+
+.txt-area:focus {
+    border: 1px solid var(--theme700);
+    box-shadow: 0 0 10px var(--theme300);
+}
+
+.txt-validate {
+    min-width: 80px;
+}
+
+.txt-validate:out-of-range {
+    border: 2px solid var(--failureBg);
+}
+
+.txt-validate:in-range {
+    border: 2px solid var(--successBg);
+}

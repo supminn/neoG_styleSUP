@@ -1,0 +1,35 @@
+.avatar-sm {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+.avatar-md {
+    border-radius: 50%;
+    width: 75px;
+    height: auto;
+}
+
+.avatar-lg {
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+}
+
+.avatar-sq-sm {
+    border-radius: 25%;
+    width: 50px;
+    height: auto;
+}
+
+.avatar-sq-md {
+    border-radius: 25%;
+    width: 75px;
+    height: auto;
+}
+
+.avatar-sq-lg {
+    border-radius: 25%;
+    width: 120px;
+    height: auto;
+}

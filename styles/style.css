@@ -1,0 +1,131 @@
+#btn-top {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+}
+
+#btn-top i {
+    color: var(--primaryTxt);
+}
+
+#navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    grid-area: nav;
+}
+
+#list-nav-main{
+    padding-inline-start: 0;
+    position: fixed;
+    top: 8%;
+    left: 2%;
+    z-index: 1;
+    width: 100%;
+}
+
+#list-nav-main>.list-item {
+    margin: 0;
+    text-align: center;
+    cursor: default;
+}
+
+#list-nav-main>.list-item>a {
+    text-decoration: none;
+}
+
+.social-media {
+    width: 120px;
+    position: fixed;
+    top: 1%;
+    right: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.media-logo {
+    width: 50%;
+}
+
+.code-frame {
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    overflow-x: visible;
+    /* padding-top: 56.25%; */
+}
+
+.code-frame>iframe {
+    /* position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            "nav nav"
+            "left-pannel lib-data";
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 2rem;
+        scroll-behavior: smooth;
+    }
+
+    .left-pannel{
+        grid-area: left-pannel;
+        width: 100%;
+        min-width: 200px;
+        border-right: 1px solid var(--primaryBg);
+    }
+
+    #list-nav-main {  
+        position: fixed;
+        top: 10%;
+        left: 2%;
+        width: 18%;
+        border: 1px solid var(--primaryBg);
+        border-radius: 1rem;
+        background-color: var(--theme50);
+    }
+
+    .lib-container {
+        grid-area: lib-data;
+    }
+
+    #list-nav-main>li {
+        display: block;
+        border: none;
+        border-radius: 1rem;
+    }
+}
+
+/* width */
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--theme300);
+    border-radius: 10px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: var(--theme700);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: var(--theme600);
+}

@@ -1,0 +1,70 @@
+.list-spaced {
+    width: 300px;
+    list-style-type: none;
+    color: var(--primaryBg);
+}
+
+.list-spaced>li {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid var(--theme700);
+}
+
+.list-spaced>li:hover {
+    border: 1px solid var(--theme100);
+    background-color: var(--theme50);
+    box-shadow: 5px 5px 5px var(--theme100);
+    cursor: pointer;
+}
+
+.list-item {
+    padding: 0.5rem;
+    margin: 1rem 0.2rem;
+    border: 1px solid var(--primaryTxt);
+}
+
+.list-item:hover {
+    background-color: var(--primaryTxt);
+    cursor: pointer;
+}
+
+.list-item-active {
+    color: var(--secondaryTxt);
+    font-weight: bold;
+}
+
+.list-stacked {
+    width: 300px;
+    list-style-type: none;
+    color: var(--primaryBg);
+    margin: 0.5rem;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.list-inline>li {
+    display: inline;
+}
+
+/* width */
+.list-stacked::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.list-stacked::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--theme300);
+    border-radius: 10px;
+}
+
+/* Handle */
+.list-stacked::-webkit-scrollbar-thumb {
+    background: var(--theme700);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.list-stacked::-webkit-scrollbar-thumb:hover {
+    background: var(--theme600);
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+    padding: 0.2rem 1rem;
+    border: 2px solid var(--primaryBg);
+    background-color: var(--secondaryBg);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    cursor: default;
+}
+
+.nav-logo>img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-header {
+    font-size: 1.5em;
+    vertical-align: 40%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-btn {
+    display: none;
+}
+
+.nav-list>li {
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: block;
+        position: relative;
+    }
+
+    .nav-btn {
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 2%;
+    }
+
+    .nav-btn>i {
+        color: var(--primaryBg);
+        cursor: pointer;
+    }
+
+    .nav-list {
+        display: block;
+        background-color: var(--primaryTxt);
+        width: 100%;
+        z-index: 1;
+        padding: 0.2rem;
+    }
+
+    .nav-list>li {
+        display: block;
+    }
+
+    .nav-list-hide {
+        display: none;
+    }
+}
