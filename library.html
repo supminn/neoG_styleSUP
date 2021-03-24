@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="CSS, styles, styleSUP,Supminn,SupTECH, Web developer">  
+    <meta name="keywords" content="CSS, styles, styleSUP,Supminn,SupTECH, Web developer">
     <meta name="description" content="styleSUP CSS Component Library">
-    <meta name="author" content="Supriya M">  
-    <meta name="Copyright" content="SupTECH"> 
+    <meta name="author" content="Supriya M">
+    <meta name="Copyright" content="SupTECH">
     <link rel="icon" href="./images/logo.png" type="image/png">
     <link rel="stylesheet" href="./styles/components.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -30,7 +30,7 @@
             class="avatar-sq-md">
         <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
             class="avatar-sq-lg">
-            <span class="avatar-txt-md avatar-md">SM</span>
+        <span class="avatar-txt-md avatar-md">SM</span>
     </section>
     <section id="sec-alert">
         <h2>Alert</h2>
@@ -161,6 +161,26 @@
         <h3>Validation and errors styled</h3>
         <label>Enter a number between 10 and 50: </label>
         <input class="txt-input txt-validate" type="number" min="10" max="50" placeholder="Number" />
+        <h3>Radio button</h3>
+        <fieldset class="radio-container">
+            <legend>Web Browser</legend>
+            <input type="radio" class="radio" id="chrome" name="radio-btn" />
+            <label for="chrome">Google Chrome</label>
+            <input type="radio" class="radio" id="ie" name="radio-btn" checked />
+            <label for="ie">Internet Explorer</label>
+            <input type="radio" class="radio" id="safari" name="radio-btn" />
+            <label for="safari">Safari</label>
+        </fieldset>
+        <h3>Checkbox</h3>
+        <fieldset class="checkbox-container">
+            <legend>Vehicles</legend>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br>
+        </fieldset>
     </section>
     <section id="sec-list">
         <h2>List</h2>
@@ -329,24 +349,28 @@
         <h3>Center text</h3>
         <div class="txt-center">
             <h1 class="txt-header-1">Centered Heading</h1>
-            <p class="txt-desc">Some text which is aligned to the center. Motivation is your desire to do something with your personal life, at work, in school, in sports, or in any hobbies. Having the motivation to do something can help you achieve your big goals and dreams, whatever they may be.</p>
+            <p class="txt-desc">Some text which is aligned to the center. Motivation is your desire to do something with
+                your personal life, at work, in school, in sports, or in any hobbies. Having the motivation to do
+                something can help you achieve your big goals and dreams, whatever they may be.</p>
         </div>
     </section>
     <section id="sec-toast">
         <h2>Toast/Notify/Snackbar</h2>
         <button id="btn-toast" class="btn btn-dark">See Toast</button>
         <div class="toast-container">
-         <h3 class="toast-header">Toast Heading</h3>
-         <hr/>
-         <p class="toast-msg">This is a toast message!</p>
-         <button id="btn-close-toast" type="button" class="btn btn-secondary btn-dismiss">x</button>
+            <h3 class="toast-header">Toast Heading</h3>
+            <hr />
+            <p class="toast-msg">This is a toast message!</p>
+            <button id="btn-close-toast" type="button" class="btn btn-secondary btn-dismiss">x</button>
         </div>
     </section>
     <script src="./scripts/script.js">
     </script>
 </body>
+
 </html>
-<a href="https://carbon.now.sh/?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.png%2522%250A%2520%2520alt%253D%2522image%2522%2520class%253D%2522img%2520img-res%2520img-rd%2522%253E">Carbon.sh</a>
+<a
+    href="https://carbon.now.sh/?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.png%2522%250A%2520%2520alt%253D%2522image%2522%2520class%253D%2522img%2520img-res%2520img-rd%2522%253E">Carbon.sh</a>
 <a href="
 https://lemoncss.netlify.app/components.html">lemoncss</a>
 <a href="https://purvasheth.github.io/Ceres-Component-Lib/docs.html">Ceres</a>

@@ -88,3 +88,7 @@ h2,h3 {
     position: relative;
     padding: 1rem;
 }
+
+.fa-bell{
+    color: var(--primaryBg);
+}

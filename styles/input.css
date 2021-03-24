@@ -50,3 +50,8 @@
 .txt-validate:in-range {
     border: 2px solid var(--successBg);
 }
+
+.radio-container, .checkbox-container{
+    width: max-content;
+    padding: 0.5rem 1rem;
+}
