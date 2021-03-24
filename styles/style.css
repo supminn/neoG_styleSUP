@@ -106,7 +106,7 @@ html {
         display: block;
         padding: 1.5rem 0;
         position: relative;
-        overflow-x: visible;
+        overflow-x: scroll;
         max-width: min-content;
     }
 
