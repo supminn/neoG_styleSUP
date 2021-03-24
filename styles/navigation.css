@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-height: 50px;
     padding: 0.2rem 1rem;
     border: 2px solid var(--primaryBg);
