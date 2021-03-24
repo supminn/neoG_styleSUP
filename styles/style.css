@@ -71,7 +71,7 @@ html {
     .left-pannel {
         grid-area: left-pannel;
         width: 100%;
-        min-width: 200px;
+        min-width: 350px;
         border-right: 1px solid var(--primaryBg);
     }
 
