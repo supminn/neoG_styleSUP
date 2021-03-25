@@ -40,10 +40,10 @@ html {
 }
 
 .social-media {
-    width: 75px;
+    width: 70px;
     position: fixed;
-    top: 1%;
-    right: 10%;
+    top: 2%;
+    right: 18%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
