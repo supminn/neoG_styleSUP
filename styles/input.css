@@ -55,3 +55,7 @@
     width: max-content;
     padding: 0.5rem 1rem;
 }
+
+.label{
+    padding-right: 0.5rem;
+}

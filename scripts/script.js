@@ -6,7 +6,6 @@ btnNav.addEventListener('click',() => {
     navList.classList.toggle('nav-list-hide');
 })
 
-
 /** Modal */
 const modal = document.querySelector('.modal-container');
 const btnModal = document.querySelector('#btn-modal');
@@ -26,7 +25,6 @@ window.onclick = event => {
     }
 }
 
-
 /** Toast */
 const toast = document.querySelector('.toast-container');
 const btnToast = document.querySelector('#btn-toast');
@@ -40,6 +38,5 @@ btnToast.addEventListener('click', () => {
     toast.style.display = "block";
     setTimeout(closeToast,3000);
 });
-
 
 btnCloseToast.onclick = closeToast;

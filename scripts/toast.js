@@ -11,5 +11,4 @@ btnToast.addEventListener('click', () => {
     setTimeout(closeToast,3000);
 });
 
-
 btnCloseToast.onclick = closeToast;

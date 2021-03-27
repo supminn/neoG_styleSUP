@@ -4,7 +4,6 @@
     padding: 0.3rem;
     font-size: 0.9em;
     border-radius: 0.7rem;
-    width: 5%;
     margin: 1rem;
     font-weight: bold;
 }
@@ -60,5 +59,4 @@
 .badge-status-ard-dnd {
     background-color: var(--failureBg);
     padding: 0.3rem;
-    /* box-shadow: 1px 1px 5px var(--theme100), -1px -1px 5px var(--theme100); */
 }

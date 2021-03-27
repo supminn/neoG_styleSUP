@@ -92,3 +92,10 @@ h2,h3 {
 .fa-bell{
     color: var(--primaryBg);
 }
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
