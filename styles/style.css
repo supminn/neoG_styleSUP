@@ -43,13 +43,13 @@ html {
     width: 70px;
     position: fixed;
     top: 2%;
-    right: 18%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
-    justify-content: center;
+    right: 15%;
+    display: flex;
+    justify-content: space-between;
 }
-
+.social-link{
+    width: 40%;
+}
 .media-logo {
     width: 100%;
 }
@@ -58,9 +58,10 @@ html {
     display: none;
 }
 
-.mobile-view{
+.mobile-view {
     word-wrap: break-word;
 }
+
 @media screen and (min-width: 768px) {
     .grid-body {
         display: grid;
@@ -71,13 +72,13 @@ html {
     }
 
     .social-media {
-       position: initial;
+        position: initial;
     }
-    
+
     .left-pannel {
         grid-area: left-pannel;
         width: max-content;
-        border-right: 1px solid var(--primaryBg); 
+        border-right: 1px solid var(--primaryBg);
     }
 
     #list-nav-main {
@@ -117,7 +118,7 @@ html {
         height: 100%;
     }
 
-    .mobile-view{
+    .mobile-view {
         display: none;
     }
 }
