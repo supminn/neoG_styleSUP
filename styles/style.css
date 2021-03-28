@@ -58,6 +58,9 @@ html {
     display: none;
 }
 
+.mobile-view{
+    word-wrap: break-word;
+}
 @media screen and (min-width: 768px) {
     .grid-body {
         display: grid;
@@ -112,6 +115,10 @@ html {
     .code-frame>iframe {
         width: 100%;
         height: 100%;
+    }
+
+    .mobile-view{
+        display: none;
     }
 }
 

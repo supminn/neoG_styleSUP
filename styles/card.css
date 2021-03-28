@@ -63,8 +63,8 @@
     content: "";
     position: absolute;
     left: 100%;
-    top: 8%;
-    border-width: 8.5px 8px;
+    top: 2%;
+    border-width: 9px 8px;
     border-color: rgba(35, 91, 247, 0.7) transparent rgba(35, 91, 247, 0.7) rgba(19, 69, 207, 0.9);
     border-style: solid;
 }
@@ -110,5 +110,9 @@
     }
     .card-horizontal>.card-img{
         width: 75%;
+    }
+    .card{
+        width: 100%;
+        max-width: 300px;
     }
 }
