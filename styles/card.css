@@ -52,11 +52,12 @@
     top: 8%;
     left: 5%;
     width: max-content;
-    padding: unset;
+    padding: 0.14rem;
     border: unset;
     margin: unset;
     line-height: initial;
     border-radius: unset;
+    font-size: 0.7em;
 }
 
 .card-badge:after {
