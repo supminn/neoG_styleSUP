@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-height: 50px;
+    max-height: 5rem;
     padding: 0.2rem 1rem;
     border: 2px solid var(--primaryBg);
     background-color: var(--secondaryBg);
@@ -15,7 +15,7 @@
 }
 
 .nav-logo>img {
-    height: 40px;
+    height: 2.5rem;
     width: auto;
 }
 

@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+    padding-top: 2.2rem;
+}
+
 #btn-top {
     position: fixed;
     bottom: 2%;

@@ -8,8 +8,6 @@
 
 .avatar-txt-md {
     font-size: xx-large;
-    color: var(--primaryTxt);
-    background-color: var(--primaryBg);
     cursor: default;
     width: 75px;
     height: 75px;

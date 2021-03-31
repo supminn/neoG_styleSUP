@@ -9,11 +9,10 @@
 }
 
 .rating-block {
-    font-size: large;
     font-weight: bold;
     color: var(--primaryBg);
     background-color: var(--theme100);
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 /* add script to choose upto x stars */

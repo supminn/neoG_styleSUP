@@ -30,8 +30,8 @@
     font-family: inherit;
     font-size: inherit;
     width: 100%;
-    max-width: 300px;
-    height: 100px;
+    max-width: 30rem;
+    height: 7rem;
 }
 
 .txt-area:focus {
@@ -40,7 +40,7 @@
 }
 
 .txt-validate {
-    min-width: 80px;
+    min-width: 5rem;
 }
 
 .txt-validate:out-of-range {
@@ -51,11 +51,12 @@
     border: 2px solid var(--successBg);
 }
 
-.radio-container, .checkbox-container{
+.radio-container,
+.checkbox-container {
     width: max-content;
     padding: 0.5rem 1rem;
 }
 
-.label{
+.label {
     padding-right: 0.5rem;
 }

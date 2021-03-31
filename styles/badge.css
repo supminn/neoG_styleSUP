@@ -38,12 +38,11 @@
     padding: 0.2rem 0.3rem;
     width: fit-content;
     position: relative;
-    top: -2em;
-    left: -2.5em;
+    top: -1.5rem;
+    left: -2rem;
 }
 
 .badge-status-active {
-    border: 1px solid var(--primaryTxt);
     background-color: var(--successBg);
     border-radius: 50%;
     border: 2px solid var(--white);
@@ -51,8 +50,8 @@
     font-size: 0.2em;
     width: fit-content;
     position: relative;
-    left: -11em;
-    bottom: 1.5em;
+    left: -2rem;
+    bottom: 0.5rem;
 }
 
 .badge-status-ard-dnd {

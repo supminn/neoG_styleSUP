@@ -1,50 +1,39 @@
-.card {
+.card,
+.card-horizontal {
     border: 1px solid var(--theme900);
-    width: 300px;
     padding: 1rem;
-    margin: 1rem;
     line-height: 1.5;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--theme50);
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: 2px 2px 10px var(--theme300);
     position: relative;
+    min-width: 15rem;
+}
+
+.card {
+    max-width: 20rem;
+    flex-direction: column;
 }
 
 .card-horizontal {
-    border: 1px solid var(--theme900);
-    display: grid;
-    grid-template-areas:
-        "pic header"
-        "pic desc"
-        "pic btn";
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 0.8rem;
-    max-height: 320px;
-    max-width: 800px;
-    padding: 1rem;
-    margin: 1rem;
-    line-height: 1.5;
-    text-align: center;
-    background-color: var(--theme50);
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    box-shadow: 2px 2px 10px var(--theme300);
-    position: relative;
+    justify-content: space-between;
 }
 
 .card-img {
     width: 100%;
+    min-width: 15rem;
     height: auto;
     border-radius: 1rem;
-    grid-area: pic;
     align-self: center;
 }
 
-.card-heading {
-    margin-block-end: 0;
+.card-txt-container {
+    padding: 0 0.5rem;
 }
 
 .card-badge {
@@ -64,8 +53,8 @@
     content: "";
     position: absolute;
     left: 100%;
-    top: 2%;
-    border-width: 9px 8px;
+    top: 0;
+    border-width: 0.6rem 0.4rem;
     border-color: rgba(35, 91, 247, 0.7) transparent rgba(35, 91, 247, 0.7) rgba(19, 69, 207, 0.9);
     border-style: solid;
 }
@@ -74,7 +63,7 @@
     font-size: 1.1em;
 }
 
-.card-desc{
+.card-desc {
     padding: 0.4rem 0;
 }
 
@@ -103,17 +92,9 @@
     right: 20%;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 576px) {
     .card-horizontal {
-        display: block;
-        width: 90%;
-        min-height: 80vh;
-    }
-    .card-horizontal>.card-img{
-        width: 75%;
-    }
-    .card{
-        width: 100%;
-        max-width: 300px;
+        flex-direction: column;
+        max-width: 20rem;
     }
 }

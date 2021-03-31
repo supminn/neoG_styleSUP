@@ -4,29 +4,49 @@
 .txt-header-center,
 .txt-small,
 .txt-grey,
-.txt-desc{
+.txt-desc {
     margin-block-start: 0.4em;
     margin-block-end: 0.4em;
 }
 
 .txt-header-1,
 .txt-header-2,
-.txt-header-3{
+.txt-header-3 {
     color: var(--primaryBg);
 }
 
-.txt-secondary{
-    color: var(--secondaryTxt);
-}
-
-.txt-small{
+.txt-small {
     font-size: 0.9em;
 }
 
-.txt-grey{
+.txt-grey {
     color: var(--theme200);
 }
 
-.txt-center{
+.txt-center {
     text-align: center;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.primary-bg {
+    background-color: var(--primaryBg);
+}
+
+.primaryBg-txt {
+    color: var(--primaryBg);
+}
+
+.primary-txt {
+    color: var(--primaryTxt);
+}
+
+.secondary-bg {
+    background-color: var(--secondaryBg);
+}
+
+.secondary-txt {
+    color: var(--secondaryTxt);
 }

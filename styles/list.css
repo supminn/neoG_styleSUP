@@ -1,5 +1,5 @@
-.list-spaced {
-    width: 300px;
+.list-spaced, .list-stacked  {
+    max-width: 30rem;
     list-style-type: none;
     color: var(--primaryBg);
 }
@@ -35,11 +35,8 @@
 }
 
 .list-stacked {
-    width: 300px;
-    list-style-type: none;
-    color: var(--primaryBg);
     margin: 0.5rem;
-    max-height: 300px;
+    max-height: 30rem;
     overflow-y: scroll;
 }
 
