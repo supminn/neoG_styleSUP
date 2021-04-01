@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CSS, styles, styleSUP,Supminn,SupTECH, Web developer">
+    <meta name="description" content="styleSUP CSS Component Library">
+    <meta name="author" content="Supriya M">
+    <meta name="Copyright" content="SupTECH">
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="stylesheet" href="./styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>StyleSUP | Docs</title>
+</head>
+
+<body>
+    <div class="grid-body">
+        <!-- Navigation -->
+        <nav id="navigation" class="nav">
+            <a href="/index.html" class="nav-logo link">
+                <img class="img-rd" src="./images/logo.png" alt="logo" />
+                <span class="nav-header">StyleSUP</span>
+            </a>
+            <div class="social-media">
+                <a class="social-link" target="_blank" rel="noreferrer noopeneer" href="https://github.com/supminn">
+                    <img class="media-logo" src="./images/github.svg" alt="github" />
+                </a>
+                <a class="social-link" target="_blank" rel="noreferrer noopeneer" href="https://twitter.com/supminn">
+                    <img class="media-logo" src="./images/twitter.svg" alt="twitter" />
+                </a>
+            </div>
+            <span id="btn-navigation" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+        </nav>
+        <!-- Left Panel - Action -->
+        <aside class="left-pannel">
+            <ul id="list-nav-main" class="nav-list nav-list-hide">
+                <li class="list-item"><a class="btn-link" href="#sec-start">Get Started</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-avatar">Avatar</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-alert">Alert</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-badge">Badge</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-button">Button</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-card">Card</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-image">Image</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-input">Input</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-list">List</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-navigation">Navigation</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-modal">Modal</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-rating">Rating</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-slider">Slider</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-grid">Grid</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-text-utilities">Text Utilities</a></li>
+                <li class="list-item"><a class="btn-link" href="#sec-toast">Toast</a></li>
+            </ul>
+        </aside>
+        <div class="lib-container">
+            <!-- Get Started -->
+            <section id="sec-start">
+                <h2 class="txt-header-2">Get <span class="secondary-txt">Started</span></h2>
+                <p class="txt-desc">Add this library by including the following CSS and JavaScript files from CDN</p>
+                <br />
+                <h3 class="txt-header-3">CSS</h3>
+                <div class="mobile-view">
+                    Inlcude the stylesheets link: <b>"https://stylesup.netlify.app/styles/components.css"</b>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%250Ahref%253D%2522https%253A%252F%252Fstylesup.netlify.app%252Fstyles%252Fcomponents.css%2522%253E"
+                        style="width: 639px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3 class="txt-header-3">Javascript</h3>
+                <div class="mobile-view">
+                    Inlcude the script tag after body with src as:
+                    <b>"https://stylesup.netlify.app/scripts/script.js"</b>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520type%253D%2522text%252Fjavascript%2522%250Asrc%253D%2522https%253A%252F%252Fstylesup.netlify.app%252Fscripts%252Fscript.js%2522%253E%250A%253C%252Fscript%253E"
+                        style="width: 597px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Avatar -->
+            <section id="sec-avatar">
+                <h2 class="txt-header-2 secondary-txt">Avatar</h2>
+                <!-- Round Avatar -->
+                <h3>Round</h3>
+                <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
+                    class="avatar-sm">
+                <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
+                    class="avatar-md">
+                <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
+                    class="avatar-lg">
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-sm%2522%253E%250A%250A%2520%253Cimg%2520src%253D%2522img-location.jpg%2522alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-md%2522%253E%250A%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522img-location.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-lg%2522%253E"
+                        style="width: 521px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Square Avatar -->
+                <h3>Square</h3>
+                <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
+                    class="avatar-sq-sm">
+                <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
+                    class="avatar-sq-md">
+                <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg" alt="avatar"
+                    class="avatar-sq-lg">
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-sq-sm%2522%253E%250A%250A%2520%253Cimg%2520src%253D%2522img-location.jpg%2522alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-sq-md%2522%253E%250A%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522img-location.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-sq-lg%2522%253E"
+                        style="width: 521px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <!-- Text avatar -->
+                <h3>Text</h3>
+                <div class="flex-container">
+                    <span class="avatar-txt avatar-sm primary-bg primary-txt">SM</span>
+                    <span class="avatar-txt avatar-md secondary-bg secondary-txt">SM</span>
+                    <span class="avatar-txt avatar-sq-lg primary-bg primary-txt">SM</span>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex-container%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-txt%2520avatar-sm%2520primary-bg%2520primary-txt%2522%253ESM%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-txt%2520avatar-md%2520secondary-bg%2520secondary-txt%2522%253ESM%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-txt%2520avatar-sq-lg%2520primary-bg%2520primary-txt%2522%253ESM%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 782px; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Alert -->
+            <section id="sec-alert">
+                <h2 class="txt-header-2 secondary-txt">Alert</h2>
+                <!-- Normal Alert -->
+                <div class="alert">--Alert--</div>
+                <!-- Success Alert -->
+                <div class="alert alert-success"><i class="far fa-check-circle"></i> Sucess alert</div>
+                <!-- Failure Alert -->
+                <div class="alert alert-failure"><i class="fas fa-exclamation-triangle"></i> Failure alert</div>
+                <!-- Light Theme Alert -->
+                <div class="alert alert-light"><i class="fas fa-lightbulb"></i> Light alert</div>
+                <!-- Dark Theme Alert -->
+                <div class="alert alert-dark"><i class="fas fa-moon"></i> Dark alert</div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Normal%2520Alert%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2522%253E--Alert--%253C%252Fdiv%253E%250A%250A%2520%2520%253C%21--%2520Success%2520Alert%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Sucess%2520alert%253C%252Fdiv%253E%250A%250A%2520%2520%253C%21--%2520Failure%2520Alert%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-failure%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Failure%2520alert%253C%252Fdiv%253E%250A%250A%2520%2520%253C%21--%2520Light%2520Theme%2520Alert%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-light%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-lightbulb%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520Light%2520alert%253C%252Fdiv%253E%250A%250A%2520%2520%253C%21--%2520Dark%2520Theme%2520Alert%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-moon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520Dark%2520alert%253C%252Fdiv%253E"
+                        style="width: 546px; height: 591px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Badge -->
+            <section id="sec-badge">
+                <div class="flex-container">
+                    <h2 class="txt-header-2 secondary-txt">Badge</h2>
+                    <!-- Normal Badge -->
+                    <span class="badge">--Badge--</span>
+                    <!-- Primary Badge -->
+                    <span class="badge badge-primary">Primary</span>
+                    <!-- Secondary Badge -->
+                    <span class="badge badge-secondary">Secondary</span>
+                    <!-- Light Theme Badge -->
+                    <span class="badge badge-light">Light</span>
+                    <!-- Ḍark Theme Badge -->
+                    <span class="badge badge-dark">Dark</span>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Normal%2520Badge%2520--%253E%250A%253Cspan%2520class%253D%2522badge%2522%253E--Badge--%253C%252Fspan%253E%250A%253C%21--%2520Primary%2520Badge%2520--%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253EPrimary%253C%252Fspan%253E%250A%253C%21--%2520Secondary%2520Badge%2520--%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-secondary%2522%253ESecondary%253C%252Fspan%253E%250A%253C%21--%2520Light%2520Theme%2520Badge%2520--%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-light%2522%253ELight%253C%252Fspan%253E%250A%253C%21--%2520%25E1%25B8%258Cark%2520Theme%2520Badge%2520--%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-dark%2522%253EDark%253C%252Fspan%253E"
+                        style="width: 588px; height: 370px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Badge on Icon</h3>
+                <div class="div-relative">
+                    <i class="fas fa-bell fa-2x primaryBg-txt"></i>
+                    <span class="badge badge-secondary badge-icon">2</span>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522div-relative%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2520primaryBg-txt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-secondary%2520badge-icon%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 647px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Badge on Avatar</h3>
+                <span class="div-relative">
+                    <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg"
+                        alt="avatar" class="avatar-sq-md badge-status-around failure-bg">
+                </span>
+                <span class="div-relative">
+                    <img src="https://pbs.twimg.com/profile_images/1211920692368695299/J6eYihlX_400x400.jpg"
+                        alt="avatar" class="avatar-md">
+                    <span class="badge badge-status success-bg"></span>
+                </span>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522div-relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522img-location.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar-sq-md%2520badge-status-around%2520failure-bg%2522%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522div-relative%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522img-location.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar-md%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-status%2520success-bg%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E"
+                        style="width: 766px; height: 352px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Button -->
+            <section id="sec-button">
+                <h2 class="txt-header-2 secondary-txt">Button</h2>
+                <!-- Normal Button -->
+                <button type="button" class="btn">Button</button>
+                <!-- Solid Button -->
+                <button type="button" class="btn btn-solid">Solid</button>
+                <!-- Primary Button -->
+                <button type="button" class="btn btn-primary">Primary</button>
+                <!-- Secondary Button -->
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <!-- Light Theme Button -->
+                <button type="button" class="btn btn-light">Light</button>
+                <!-- Dark Theme Button -->
+                <button type="button" class="btn btn-dark">Dark</button>
+                <!-- Button Disabeled -->
+                <button type="button" class="btn" disabled>Disabled</button>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Normal%2520Button%2520--%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2522%253EButton%253C%252Fbutton%253E%250A%2520%253C%21--%2520Solid%2520Button%2520--%253E%250A%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-solid%2522%253ESolid%253C%252Fbutton%253E%250A%253C%21--%2520Primary%2520Button%2520--%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253C%21--%2520Secondary%2520Button%2520--%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253C%21--%2520Light%2520Theme%2520Button%2520--%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-light%2522%253ELight%253C%252Fbutton%253E%250A%253C%21--%2520Dark%2520Theme%2520Button%2520--%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-dark%2522%253EDark%253C%252Fbutton%253E%250A%253C%21--%2520Button%2520Disabeled%2520--%253E%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2522%2520disabled%253EDisabled%253C%252Fbutton%253E"
+                        style="width: 706px; height: 444px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Link</h3>
+                <a href="#" class="btn btn-link">Link</a>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522link-url%2522%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fa%253E"
+                        style="width: 554px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Icon button</h3>
+                <button type="button" class="btn primary-bg primary-txt"><i class="fas fa-search fa-lg "></i></button>
+                <button type="button" class="btn secondary-bg secondary-txt"><i
+                        class="far fa-address-book fa-lg"></i></button>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520primary-bg%2520primary-txt%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2520fa-lg%2520%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520secondary-bg%2520secondary-txt%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-address-book%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                        style="width: 664px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Floating Action Button</h3>
+                <button type="button" class="btn btn-secondary btn-fab"><i
+                        class="fas fa-angle-double-up fa-lg"></i></button>
+                <button type="button" class="btn btn-primary btn-fab"><i class="fas fa-plus"></i></button>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520btn-fab%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-angle-double-up%2520fa-lg%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2520btn-fab%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+                        style="width: 622px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Card -->
+            <section id="sec-card">
+                <h2 class="txt-header-2 secondary-txt">Card</h2>
+                <!-- Regular card -->
+                <div class="card">
+                    <img class="card-img" alt="card-image"
+                        src="https://static.toiimg.com/thumb/msid-54559212,width-748,height-499,resizemode=4,imgsize-307081/.jpg">
+                    <h3 class="card-heading">Vidhana Soudha</h3>
+                    <p class="card-desc">The Vidhana Soudha in Bangalore, India, is the seat of the bicameral state
+                        legislature
+                        of Karnataka. It is constructed in a style sometimes described as Mysore Neo-Dravidian, and
+                        incorporates
+                        elements of Dravidian styles. The construction was completed in 1956.</p>
+                    <button type="button" class="btn btn-secondary">Read More</button>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522img-location.jpg%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EVidhana%2520Soudha%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520The%2520Vidhana%2520Soudha%2520in%2520Bangalore%252C%2520India%252C%250A%2520%2520%2520%2520%2520%2520is%2520the%2520seat%2520of%2520the%2520bicameral%2520state%2520legislature%250A%2520%2520%2520%2520%2520%2520of%2520Karnataka.%2520It%2520is%2520constructed%2520in%2520a%2520style%2520%250A%2520%2520%2520%2520%2520%2520sometimes%2520described%2520as%2520Mysore%2520Neo-Dravidian%252C%250A%2520%2520%2520%2520%2520%2520and%2520incorporates%2520elements%2520of%2520Dravidian%2520styles.%250A%2520%2520%2520%2520%2520%2520The%2520construction%2520was%2520completed%2520in%25201956.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520Read%2520More%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                        style="width: 589px; height: 444px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Card with badge and shadow</h3>
+                <div class="card card-shadow">
+                    <img class="card-img" alt="card-image"
+                        src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12633828/2020/10/11/29fbb72a-86cf-46ca-92ef-2200bee7d28e1602389857090MarksSpencerWomenCream-ColouredLinenHigh-RiseSolidRegularFit1.jpg">
+                    <h3 class="card-heading">Marks & Spenser</h3>
+                    <span class="card-desc">Women Black Solid A-Line Dress</span><br />
+                    <b class="card-price">₹ 1789/-</b>
+                    <button type="button" class="btn btn-primary">Buy Now</button>
+                    <span class="badge badge-primary card-badge">New</span>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520src%253D%2522img-location.jpg%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EMarks%2520%2526%2520Spenser%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520Women%2520Black%2520Solid%2520A-Line%2520Dress%250A%2520%2520%2520%2520%253C%252Fspan%253E%253Cbr%252F%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%25201789%252F-%253C%252Fb%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520Buy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-primary%2520card-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520New%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 571px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Card with dismiss & overlay text</h3>
+                <div class="card">
+                    <img class="card-img" alt="card-image"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bachalpsee_reflection.jpg/375px-Bachalpsee_reflection.jpg">
+                    <h3 class="card-heading">Nature Photography</h3>
+                    <p class="card-desc"> "Nature" can refer to the phenomena of the physical world, and also to life in
+                        general. The study of nature is a large, if not the only, part of science. Although humans are
+                        part
+                        of
+                        nature, human activity is often understood as a separate category from other natural phenomena.
+                    </p>
+                    <button type="button" class="btn btn-secondary">Read More</button>
+                    <button type="button" class="btn btn-secondary btn-dismiss">x</button>
+                    <small class="txt-overlay">Bachalpsee in the Swiss Alps</small>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522img-location.jpg%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253ENature%2520Photography%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2522Nature%2522%2520can%2520refer%2520to%2520the%2520phenomena%2520of%2520the%2520physical%2520world%252C%250A%2520%2520%2520%2520%2520%2520and%2520also%2520to%2520life%2520in%2520general.%2520The%2520study%2520of%2520nature%2520is%2520a%2520large%252C%250A%2520%2520%2520%2520%2520%2520if%2520not%2520the%2520only%252C%2520part%2520of%2520science.%2520Although%2520humans%2520are%2520part%250A%2520%2520%2520%2520%2520%2520%2520%2520of%2520nature%252C%2520human%2520activity%2520is%2520often%2520understood%2520as%2520a%2520separate%250A%2520%2520%2520%2520%2520%2520category%2520from%2520other%2520natural%2520phenomena.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520Read%2520More%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn-secondary%2520btn-dismiss%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522txt-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520Bachalpsee%2520in%2520the%2520Swiss%2520Alps%253C%252Fsmall%253E%250A%253C%252Fdiv%253E"
+                        style="width: 715px; height: 499px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Horizontal Card</h3>
+                <div class="card-horizontal">
+                    <img class="card-img" alt="card-image"
+                        src="https://static.toiimg.com/thumb/msid-54559212,width-748,height-499,resizemode=4,imgsize-307081/.jpg">
+                    <div class="card-txt-container">
+                        <h3 class="card-heading">Vidhana Soudha</h3>
+                        <p class="card-desc">The Vidhana Soudha in Bangalore, India, is the seat of the bicameral state
+                            legislature
+                            of Karnataka. It is constructed in a style sometimes described as Mysore Neo-Dravidian, and
+                            incorporates
+                            elements of Dravidian styles. The construction was completed in 1956.</p>
+                        <button type="button" class="btn btn-secondary">Read More</button>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520alt%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522image-location.jpg%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-txt-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EVidhana%2520Soudha%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-desc%2522%253EThe%2520Vidhana%2520Soudha%2520in%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Bangalore%252C%2520India%252Cis%2520the%2520seat%2520of%2520the%2520bicameral%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520state%2520legislature%2520of%2520Karnataka.%2520It%2520is%2520constructed%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520in%2520a%2520style%2520sometimes%2520described%2520as%2520Mysore%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Neo-Dravidian%252C%2520and%2520incorporates%2520elements%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520of%2520Dravidian%2520styles.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520The%2520construction%2520was%2520completed%2520in%25201956.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn-secondary%2522%253ERead%2520More%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 647px; height: 481px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Text only card</h3>
+                <div class="card">
+                    <p class="card-desc">
+                        Motivational quotes can help you reach your potential each day. Sure, they’re just words. But
+                        they’re
+                        positive words. And if you’re on the verge of giving up or struggling to push yourself to the
+                        next
+                        level, sometimes that’s just what you need. So whether you’re trying to finish a project, start
+                        a
+                        new
+                        side hustle, or hit that big life goal, knowing how to motivate yourself and train your brain
+                        for
+                        success can help.
+                    </p>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Motivational%2520quotes%2520can%2520help%2520you%2520reach%2520%250A%2520%2520%2520%2520%2520%2520your%2520potential%2520each%2520day.%2520Sure%252C%2520they%25E2%2580%2599re%2520just%2520words.%250A%2520%2520%2520%2520%2520%2520But%2520they%25E2%2580%2599re%2520positive%2520words.%2520And%2520if%2520you%25E2%2580%2599re%2520on%2520the%2520%250A%2520%2520%2520%2520%2520%2520verge%2520of%2520giving%2520up%2520or%2520struggling%2520to%2520push%2520yourself%250A%2520%2520%2520%2520%2520%2520to%2520the%2520next%2520level%252C%2520sometimes%2520that%25E2%2580%2599s%2520just%2520what%2520you%250A%2520%2520%2520%2520%2520%2520need.%2520So%2520whether%2520you%25E2%2580%2599re%2520trying%2520to%2520finish%2520a%2520project%252C%250A%2520%2520%2520%2520%2520%2520start%2520a%2520new%2520side%2520hustle%252C%2520or%2520hit%2520that%2520big%2520life%2520goal%252C%250A%2520%2520%2520%2520%2520%2520knowing%2520how%2520to%2520motivate%2520yourself%2520and%2520train%2520your%250A%2520%2520%2520%2520%2520%2520brain%2520for%2520success%2520can%2520help.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="width: 630px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Image -->
+            <section id="sec-image">
+                <h2 class="txt-header-2 secondary-txt">Image</h2>
+                <!-- Normal Image -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_MFHGXBM_XVd_DKxWfyUTVAP5aOKkPRWuAA&usqp=CAU"
+                    alt="image" class="img">
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.png%2522%250A%2520%2520alt%253D%2522image%2522%2520class%253D%2522img%2522%253E"
+                        style="width: 378px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Responsive Image</h3>
+                <img src="https://www.iamabiker.com/wp-content/uploads/2018/04/Royal-Enfield-Thunderbird-350X-HD-wallpapers-1.jpg"
+                    alt="image" class="img img-res">
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.png%2522%250A%2520%2520alt%253D%2522image%2522%2520class%253D%2522img%2520img-res%2522%253E"
+                        style="width: 437px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Round Image</h3>
+                <img src="./images/logo.png" alt="image" class="img img-res img-rd">
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522img-location.png%2522%250A%2520%2520alt%253D%2522image%2522%2520class%253D%2522img%2520img-res%2520img-rd%2522%253E"
+                        style="width: 496px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Input & Textarea -->
+            <section id="sec-input">
+                <h2 class="txt-header-2 secondary-txt">Input & Textarea</h2>
+                <!-- Search bar -->
+                <div class="txt-box">
+                    <input class="txt-input" type="text" placeholder="Search here" />
+                    <span class="txt-icon"><i class="fas fa-search fa-lg "></i></span>
+                </div>
+                <!-- Username or input field -->
+                <div class="txt-box">
+                    <span class="txt-icon"><i class="fas fa-at fa-lg"></i></span>
+                    <input class="txt-input" type="text" placeholder="Username" />
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253C%21--%2520Search%2520bar%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-box%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522txt-input%2522%2520type%253D%2522text%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Search%2520here%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522txt-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2520fa-lg%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%21--%2520Username%2520or%2520input%2520field%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522txt-box%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522txt-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-at%2520fa-lg%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522txt-input%2522%2520type%253D%2522text%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Username%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        style="width: 554px; height: 444px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <!-- Textarea -->
+                <h3>Textarea</h3>
+                <textarea class="txt-input txt-area" placeholder="Text Area"></textarea>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520class%253D%2522txt-input%2520txt-area%2522%250A%2520%2520%2520%2520placeholder%253D%2522Text%2520Area%2522%253E%250A%253C%252Ftextarea%253E"
+                        style="width: 454px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Validation and errors styled</h3>
+                <label>Enter a number between 10 and 50: </label>
+                <input class="txt-input txt-validate" type="number" min="10" max="50" placeholder="Number" />
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%253E%250A%2520%2520Enter%2520a%2520number%2520between%252010%2520and%252050%253A%250A%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522txt-input%2520txt-validate%2522%250A%2520%2520%2520%2520%2520%2520%2520type%253D%2522number%2522%2520min%253D%252210%2522%2520max%253D%252250%2522%250A%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Number%2522%252F%253E"
+                        style="width: 470px; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <!-- Radio buttons -->
+                <h3>Radio button</h3>
+                <div class="radio-container, flex-container">
+                    <input type="radio" class="radio" id="chrome" name="radio-btn" />
+                    <label class="label" for="chrome">Google Chrome</label>
+                    <input type="radio" class="radio" id="ie" name="radio-btn" checked />
+                    <label class="label" for="ie">Internet Explorer</label>
+                    <input type="radio" class="radio" id="safari" name="radio-btn" />
+                    <label class="label" for="safari">Safari</label>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio-container%252C%2520flex-container%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2522%2520id%253D%2522chrome%2522%2520name%253D%2522radio-btn%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522chrome%2522%253EGoogle%2520Chrome%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2522%2520id%253D%2522ie%2522%2520name%253D%2522radio-btn%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522ie%2522%253EInternet%2520Explorer%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520class%253D%2522radio%2522%2520id%253D%2522safari%2522%2520name%253D%2522radio-btn%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522safari%2522%253ESafari%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                        style="width: 766px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <!-- Checkbox -->
+                <h3>Checkbox</h3>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label class="label" for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label class="label" for="vehicle2"> I have a car</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label class="label" for="vehicle3"> I have a boat</label><br>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522checkbox-container%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522vehicle1%2522%2520name%253D%2522vehicle1%2522%2520value%253D%2522Bike%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522vehicle1%2522%253E%2520I%2520have%2520a%2520bike%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522vehicle2%2522%2520name%253D%2522vehicle2%2522%2520value%253D%2522Car%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522vehicle2%2522%253E%2520I%2520have%2520a%2520car%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522vehicle3%2522%2520name%253D%2522vehicle3%2522%2520value%253D%2522Boat%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%2520for%253D%2522vehicle3%2522%253E%2520I%2520have%2520a%2520boat%253C%252Flabel%253E%253Cbr%253E%250A%253C%252Fdiv%253E"
+                        style="width: 740px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- List -->
+            <section id="sec-list">
+                <h2 class="txt-header-2 secondary-txt">List</h2>
+                <ul class="list-spaced">
+                    <li class="list-item">Point 1</li>
+                    <li class="list-item list-item-active">Point 2</li>
+                    <li class="list-item">Point 3</li>
+                    <li class="list-item">Point 4</li>
+                </ul>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-spaced%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EPoint%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item-active%2522%253EPoint%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EPoint%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EPoint%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="width: 614px; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Stacked list</h3>
+                <ul class="list-stacked">
+                    <li class="list-item list-item-active">Notification 1</li>
+                    <li class="list-item">Notification 2</li>
+                    <li class="list-item">Notification 3</li>
+                    <li class="list-item">Notification 4</li>
+                    <li class="list-item">Notification 5</li>
+                    <li class="list-item">Notification 6</li>
+                    <li class="list-item">Notification 7</li>
+                    <li class="list-item">Notification 8</li>
+                </ul>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-stacked%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item-active%2522%253ENotification%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25205%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25206%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25207%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253ENotification%25208%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="width: 673px; height: 370px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Inline list</h3>
+                <ul class="list-inline">
+                    <li class="list-item list-item-active">Point 1</li>
+                    <li class="list-item">Point 2</li>
+                    <li class="list-item">Point 3</li>
+                </ul>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-inline%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item-active%2522%253EPoint%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EPoint%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EPoint%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="width: 614px; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Navigation -->
+            <section id="sec-navigation">
+                <h2 class="txt-header-2 secondary-txt">Navigation</h2>
+                <nav class="nav">
+                    <div class="nav-logo">
+                        <img class="img-rd" src="./images/logo.png" alt="logo" />
+                        <span class="nav-header">StyleSUP</span>
+                    </div>
+                    <span id="btn-nav" class="nav-btn"><i class="fas fa-chevron-circle-down fa-lg"></i></span>
+                    <ul id="list-nav" class="nav-list  nav-list-hide">
+                        <li class="list-item list-item-active">Home</li>
+                        <li class="list-item">More Details</li>
+                        <li class="list-item">Contact</li>
+                    </ul>
+                </nav>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cnav%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-rd%2522%2520src%253D%2522img-location.png%2522%2520alt%253D%2522logo%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-header%2522%253EStyleSUP%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520id%253D%2522btn-nav%2522%2520class%253D%2522nav-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-chevron-circle-down%2520fa-lg%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cul%2520id%253D%2522list-nav%2522%2520class%253D%2522nav-list%2520%2520nav-list-hide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-item-active%2522%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EMore%2520Details%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EContact%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fnav%253E"
+                        style="width: 682px; height: 444px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Modal -->
+            <section id="sec-modal">
+                <h2 class="txt-header-2 secondary-txt">Modal</h2>
+                <br />
+                <button id="btn-modal" class="btn btn-dark">Open Modal</button>
+                <div class="modal-container">
+                    <div class="card modal-content">
+                        <h3 class="modal-header"> Modal Demo</h3>
+                        <hr />
+                        <p class="modal-desc">A modal is a dialog box/popup window that is displayed on top of the
+                            current
+                            page.
+                            When the modal is open, the background of the remaining page is made to be translucent.</p>
+                        <button type="button" id="btn-close-modal" class="btn btn-secondary btn-dismiss">x</button>
+                    </div>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-header%2522%253E%2520Modal%2520Demo%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520modal%2520is%2520a%2520dialog%2520box%252Fpopup%2520window%2520that%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520is%2520displayed%2520on%2520top%2520of%2520the%2520current%2520page.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520When%2520the%2520modal%2520is%2520open%252C%2520the%2520background%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520of%2520the%2520remaining%2520page%2520is%2520made%2520to%2520be%2520translucent.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520id%253D%2522btn-close-modal%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn-secondary%2520btn-dismiss%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 690px; height: 426px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Rating -->
+            <section id="sec-rating">
+                <h2 class="txt-header-2 secondary-txt">Rating</h2>
+                <div class="rating">
+                    <span class="rating-block">3.5
+                        <i class='fa fa-star fa-md rating-checked'></i>
+                    </span>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-block%2522%253E3.5%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-md%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rating-checked%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 470px; height: 297px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Star rating</h3>
+                <div class='rating'>
+                    <i class='fa fa-star fa-lg'></i>
+                    <i class='fa fa-star fa-lg'></i>
+                    <i class='fa fa-star fa-lg'></i>
+                    <i class='fa fa-star fa-lg'></i>
+                    <i class='fa fa-star fa-lg'></i>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27rating%27%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                        style="width: 454px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Checked rating</h3>
+                <div class='rating'>
+                    <i class='fa fa-star fa-lg rating-checked'></i>
+                    <i class='fa fa-star fa-lg rating-checked'></i>
+                    <i class='fa fa-star fa-lg rating-checked'></i>
+                    <i class='fa fa-star fa-lg'></i>
+                    <i class='fa fa-star fa-lg'></i>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27rating%27%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%2520rating-checked%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%2520rating-checked%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%2520rating-checked%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%27fa%2520fa-star%2520fa-lg%27%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                        style="width: 580px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Slider -->
+            <section id="sec-slider">
+                <h2 class="txt-header-2 secondary-txt">Slider</h2>
+                <input clas="slider" type="range" min="1" max="100" value="40">
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520clas%253D%2522slider%2522%2520type%253D%2522range%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252240%2522%253E"
+                        style="width: 454px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Grid -->
+            <section id="sec-grid">
+                <h2 class="txt-header-2 secondary-txt">Simplified Grid</h2>
+                <h3>Two Items</h3>
+                <div class="grid-two">
+                    <div class="card">
+                        <p class="card-desc">
+                            Motivational quotes can help you reach your potential each day. Sure, they’re just words.
+                            But
+                            they’re
+                            positive words. And if you’re on the verge of giving up or struggling to push yourself to
+                            the
+                            next
+                            level, sometimes that’s just what you need. So whether you’re trying to finish a project,
+                            start
+                            a
+                            new
+                            side hustle, or hit that big life goal, knowing how to motivate yourself and train your
+                            brain
+                            for
+                            success can help.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <p class="card-desc">
+                            Motivational quotes can help you reach your potential each day. Sure, they’re just words.
+                            But
+                            they’re
+                            positive words. And if you’re on the verge of giving up or struggling to push yourself to
+                            the
+                            next
+                            level, sometimes that’s just what you need. So whether you’re trying to finish a project,
+                            start
+                            a
+                            new
+                            side hustle, or hit that big life goal, knowing how to motivate yourself and train your
+                            brain
+                            for
+                            success can help.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <p class="card-desc">
+                            Motivational quotes can help you reach your potential each day. Sure, they’re just words.
+                            But
+                            they’re
+                            positive words. And if you’re on the verge of giving up or struggling to push yourself to
+                            the
+                            next
+                            level, sometimes that’s just what you need. So whether you’re trying to finish a project,
+                            start
+                            a
+                            new
+                            side hustle, or hit that big life goal, knowing how to motivate yourself and train your
+                            brain
+                            for
+                            success can help.
+                        </p>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-two%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520Contents%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520Contents%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520Contents%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 335px; height: 389px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h3>Three Items</h3>
+                <div class="grid-three">
+                    <div class="card">
+                        <p class="card-desc">
+                            Motivational quotes can help you reach your potential each day. Sure, they’re just words.
+                            But
+                            they’re
+                            positive words. And if you’re on the verge of giving up or struggling to push yourself to
+                            the
+                            next
+                            level, sometimes that’s just what you need. So whether you’re trying to finish a project,
+                            start
+                            a
+                            new
+                            side hustle, or hit that big life goal, knowing how to motivate yourself and train your
+                            brain
+                            for
+                            success can help.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <p class="card-desc">
+                            Motivational quotes can help you reach your potential each day. Sure, they’re just words.
+                            But
+                            they’re
+                            positive words. And if you’re on the verge of giving up or struggling to push yourself to
+                            the
+                            next
+                            level, sometimes that’s just what you need. So whether you’re trying to finish a project,
+                            start
+                            a
+                            new
+                            side hustle, or hit that big life goal, knowing how to motivate yourself and train your
+                            brain
+                            for
+                            success can help.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <p class="card-desc">
+                            Motivational quotes can help you reach your potential each day. Sure, they’re just words.
+                            But
+                            they’re
+                            positive words. And if you’re on the verge of giving up or struggling to push yourself to
+                            the
+                            next
+                            level, sometimes that’s just what you need. So whether you’re trying to finish a project,
+                            start
+                            a
+                            new
+                            side hustle, or hit that big life goal, knowing how to motivate yourself and train your
+                            brain
+                            for
+                            success can help.
+                        </p>
+                    </div>
+                </div>
+                <div class="code-frame">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-three%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520Contents%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520Contents%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520Contents%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 352px; height: 389px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+            <!-- Text Utilities -->
+            <section id="sec-text-utilities">
+                <h2 class="txt-header-2 secondary-txt">Text Utilities</h2>
+                <h3>Headings</h3>
+                <h1 class="txt-header-1">Main Heading</h1>
+                <h2 class="txt-header-2">Topic <span class="secondary-txt">Heading</span></h2>
+                <h3 class="txt-header-3">Sub Heading</h3>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522txt-header-1%2522%253EMain%2520Heading%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522txt-header-2%2522%253ETopic%2520%250A%2520%2520%253Cspan%2520class%253D%2522txt-secondary%2522%253EHeading%253C%252Fspan%253E%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522txt-header-3%2522%253ESub%2520Heading%253C%252Fh3%253E"
+                        style="width: 563px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Small text</h3>
+                <p class="txt-small">Small text paragraph</p>
+                <small class="txt-small">Small text default</small>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522txt-small%2522%253E%250ASmall%2520text%2520paragraph%253C%252Fp%253E%250A%250A%253Csmall%2520class%253D%2522txt-small%2522%253E%250A%2520%2520Small%2520text%2520default%253C%252Fsmall%253E"
+                        style="width: 386px; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Grey text</h3>
+                <p class="txt-grey">This is an example of grey text.</p>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cp%2520class%253D%2522txt-grey%2522%253E%250A%2520%2520%2520This%2520is%2520an%2520example%2520of%2520grey%2520text.%253C%252Fp%253E"
+                        style="width: 479px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+                <h3>Center text</h3>
+                <div class="txt-center">
+                    <h1 class="txt-header-1">Centered Heading</h1>
+                    <p class="txt-desc">Some text which is aligned to the center. Motivation is your desire to do
+                        something
+                        with your personal life, at work, in school, in sports, or in any hobbies. Having the motivation
+                        to
+                        do something can help you achieve your big goals and dreams, whatever they may be.</p>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522txt-center%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522txt-header-1%2522%253ECentered%2520Heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522txt-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520Some%2520text%2520which%2520is%2520aligned%2520to%2520the%2520center.%250A%2520%2520%2520%2520%2520%2520Motivation%2520is%2520your%2520desire%2520to%2520do%2520something%2520with%2520%250A%2520%2520%2520%2520%2520%2520your%2520personal%2520life%252C%2520at%2520work%252C%2520in%2520school%252C%2520in%2520sports%252C%2520%250A%2520%2520%2520%2520%2520%2520or%2520in%2520any%2520hobbies.%2520Having%2520the%2520motivation%2520to%250A%2520%2520%2520%2520%2520%2520do%2520something%2520can%2520help%2520you%2520achieve%2520your%2520big%2520%250A%2520%2520%2520%2520%2520%2520goals%2520and%2520dreams%252C%2520whatever%2520they%2520may%2520be.%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                        style="width: 630px; height: 389px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- Toast -->
+            <section id="sec-toast">
+                <h2 class="txt-header-2 secondary-txt">Toast/Notify/Snackbar</h2>
+                <button id="btn-toast" class="btn btn-dark">See Toast</button>
+                <div class="toast-container">
+                    <h3 class="toast-header">Toast Heading</h3>
+                    <hr />
+                    <p class="toast-msg">This is a toast message!</p>
+                    <button id="btn-close-toast" type="button" class="btn btn-secondary btn-dismiss">x</button>
+                </div>
+                <div class="code-frame"><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28219%2C234%2C254%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%253Ch3%2520class%253D%2522toast-header%2522%253EToast%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%253Chr%252F%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522toast-msg%2522%253EThis%2520is%2520a%2520toast%2520message%21%253C%252Fp%253E%250A%2520%2520%2520%253Cbutton%2520id%253D%2522btn-close-toast%2522%2520type%253D%2522button%2522%2520%250A%2520%2520%2520%2520%2520%2520class%253D%2522btn%2520btn-secondary%2520btn-dismiss%2522%253Ex%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E"
+                        style="width: 606px; height: 315px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe></div>
+            </section>
+            <!-- class="txt-header-2 secondary-txt" -->
+        </div>
+        <!-- Move to top button -->
+        <a id="btn-top" href="#">
+            <button type="button" class="btn btn-solid btn-fab">
+                <i class="fas fa-chevron-up"></i>
+            </button>
+        </a>
+    </div>
+    <script type="text/javascript" src="./scripts/docs.js">
+    </script>
+</body>
+
+</html>

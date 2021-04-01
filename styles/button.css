@@ -2,7 +2,7 @@
     outline:transparent;
     border: 1px solid transparent;
     padding: 0.7rem;
-    margin: 0.7rem;
+    margin: 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
     font-weight: bold;
@@ -69,6 +69,11 @@
 
 .btn-link:active {
     color: var(--theme400);
+}
+
+.link{
+    text-decoration: none;
+    width: 100%;
 }
 
 .btn-fab {
