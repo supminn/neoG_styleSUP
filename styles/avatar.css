@@ -6,29 +6,6 @@
     height: auto;
 }
 
-.avatar-txt-md {
-    font-size: xx-large;
-    cursor: default;
-    width: 75px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-
-.avatar-sm {
-    width: 50px;
-}
-
-.avatar-md {
-    width: 75px;
-}
-
-.avatar-lg {
-    width: 120px;
-}
-
 .avatar-sq-sm,
 .avatar-sq-md,
 .avatar-sq-lg {
@@ -36,14 +13,32 @@
     height: auto;
 }
 
+.avatar-txt {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.3rem;
+}
+
+.avatar-sm,
 .avatar-sq-sm {
     width: 50px;
+    height: 50px;
+    font-size: large;
 }
 
+.avatar-md,
 .avatar-sq-md {
     width: 75px;
+    height: 75px;
+    font-size: xx-large;
 }
 
+.avatar-lg,
 .avatar-sq-lg {
     width: 120px;
+    height: 120px;
+    font-size: 3.5rem;
 }

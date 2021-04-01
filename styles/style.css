@@ -6,6 +6,7 @@ section {
     border-bottom: 1px solid grey;
     padding: 1rem;
     padding-top: 2.2rem;
+    /* padding-left: 0.5rem; */
 }
 
 #btn-top {

@@ -50,3 +50,35 @@
 .secondary-txt {
     color: var(--secondaryTxt);
 }
+
+.success-bg{
+    background-color: var(--successBg);
+}
+
+.success-txt{
+    color: var(--successTxt);
+}
+
+.failure-bg{
+    background-color: var(--failureBg);
+}
+
+.failure-txt{
+    color: var(--failureTxt)
+}
+
+.light-bg{
+    background-color: var(--lightBg);
+}
+
+.light-txt{
+    color: var(--lightTxt)
+}
+
+.dark-bg{
+    background-color: var(--darkBg);
+}
+
+.dark-txt{
+    color: var(--darkTxt)
+}

@@ -71,18 +71,6 @@
     color: var(--theme400);
 }
 
-.btn-icon {
-    color: var(--secondaryBg);
-    border: 1px solid var(--secondaryBg);
-    background-color: var(--primaryBg);
-}
-
-.btn-icon:hover {
-    background-color: var(--secondaryBg);
-    border: 1px solid var(--primaryBg);
-    color: var(--primaryBg);
-}
-
 .btn-fab {
     border-radius: 50%;
     padding: 1rem 1.15rem;

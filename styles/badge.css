@@ -42,8 +42,7 @@
     left: -2rem;
 }
 
-.badge-status-active {
-    background-color: var(--successBg);
+.badge-status {
     border-radius: 50%;
     border: 2px solid var(--white);
     padding: 0.2rem 0.4rem;
@@ -54,7 +53,6 @@
     bottom: 0.5rem;
 }
 
-.badge-status-ard-dnd {
-    background-color: var(--failureBg);
+.badge-status-around {
     padding: 0.3rem;
 }
