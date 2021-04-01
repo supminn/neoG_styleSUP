@@ -19,6 +19,10 @@
     font-size: 0.9em;
 }
 
+.txt-big{
+    font-size: 1.5em;
+}
+
 .txt-grey {
     color: var(--theme200);
 }
