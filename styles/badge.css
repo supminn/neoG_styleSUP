@@ -1,0 +1,58 @@
+.badge {
+    text-align: center;
+    padding: 0.3rem;
+    font-size: 0.9em;
+    border-radius: 0.7rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.badge-primary {
+    color: var(--primaryTxt);
+    background-color: var(--primaryBg);
+    border: 0.5px solid var(--primaryTxt);
+}
+
+.badge-secondary {
+    border-radius: 0.4rem;
+    color: var(--secondaryTxt);
+    background-color: var(--secondaryBg);
+    border: 0.5px solid var(--secondaryTxt);
+}
+
+.badge-light {
+    color: var(--lightTxt);
+    background-color: var(--lightBg);
+    border: 0.5px solid var(--lightTxt);
+}
+
+.badge-dark {
+    color: var(--darkTxt);
+    background-color: var(--darkBg);
+}
+
+.badge-icon {
+    border-radius: 50%;
+    font-size: 0.8em;
+    font-weight: 800;
+    padding: 0.2rem 0.3rem;
+    width: fit-content;
+    position: relative;
+    top: -1.5rem;
+    left: -2rem;
+}
+
+.badge-status {
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    padding: 0.2rem 0.4rem;
+    font-size: 0.2em;
+    width: fit-content;
+    position: relative;
+    left: -2rem;
+    bottom: 0.5rem;
+}
+
+.badge-status-around {
+    padding: 0.3rem;
+}

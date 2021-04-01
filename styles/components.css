@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap');
+
+@import './avatar.css';
+@import './alert.css';
+@import './badge.css';
+@import './button.css';
+@import './card.css';
+@import './image.css';
+@import './input.css';
+@import './list.css';
+@import './navigation.css';
+@import './modal.css';
+@import './rating.css';
+@import './grid.css';
+@import './textUtilities.css';
+@import './toast.css';
+
+:root {
+    --white: white;
+    --black: black;
+
+    --theme900: #1e3a8a;
+    /*Primary*/
+    --theme800: #2b4ab1;
+    --theme700: #0C65A6;
+    --theme600: #4390c7;
+    --theme500: #3B82F6;
+    --theme400: #60A5FA;
+    /*btn-hover*/
+    --theme300: #93C5FD;
+    /*card-shadow*/
+    --theme200: #BFDBFE;
+    /*txt-overlay*/
+    --theme100: #DBEAFE;
+    /*box-shadow*/
+    --theme50: #EFF6FF;
+    /*card-bg*/
+
+    --colorMind1: #C34B3A;
+    /*sec-text*/
+    --colorMind2: #F6EED6;
+    /*sec-bg*/
+
+    --colorMind3: #C3B786;
+    --colorMind4: #C69D57;
+    --colorMind7: #F0C27E;
+    --colorMind8: #B0B49A;
+    --colorMind10: #DA9367;
+
+    --primaryTxt: var(--colorMind2);
+    --primaryBg: var(--theme900);
+
+    --secondaryTxt: var(--colorMind1);
+    --secondaryBg: var(--colorMind2);
+
+    --successTxt: #ECFDF5;
+    --successBg: #2e6656;
+
+    --failureTxt: rgb(253, 224, 224);
+    --failureBg: rgb(187, 49, 44);
+
+    --lightTxt: rgb(5, 5, 5);
+    --lightBg: rgb(220, 220, 224);
+
+    --darkTxt: rgb(234, 234, 234);
+    --darkBg: rgb(47, 47, 47);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+h2,
+h3 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    padding: 0.3em;
+}
+
+.div-relative {
+    position: relative;
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}

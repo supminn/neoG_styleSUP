@@ -1,0 +1,82 @@
+.btn {
+    outline:transparent;
+    border: 1px solid transparent;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.btn-solid {
+    background-color: var(--primaryBg);
+    color: var(--primaryTxt);
+}
+
+.btn-primary {
+    color: var(--primaryBg);
+    background-color: var(--theme200);
+    border: 2px solid var(--primaryBg);
+}
+
+.btn-primary:hover {
+    color: var(--primaryTxt);
+    background-color: var(--primaryBg);
+    border: 2px solid var(--primaryTxt);
+}
+
+.btn-secondary {
+    color: var(--secondaryTxt);
+    background-color: var(--secondaryBg);
+    border: 2px solid var(--secondaryTxt);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondaryTxt);
+    color: var(--secondaryBg);
+}
+
+.btn-light {
+    color: var(--lightTxt);
+    background-color: var(--lightBg);
+    border: 2px solid var(--lightTxt);
+}
+
+.btn-light:hover{
+    background-color: rgba(var(--lightBg),0.5);
+}
+
+.btn-dark {
+    color: var(--darkTxt);
+    background-color: var(--darkBg);
+    border: 2px solid var(--darkTxt);
+}
+
+.btn-dark:hover{
+    background-color: var(--black);
+}
+
+.btn-link {
+    color: var(--primaryBg);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.btn-link:hover {
+    color: var(--secondaryTxt);
+}
+
+.btn-link:active {
+    color: var(--theme400);
+}
+
+.btn-fab {
+    border-radius: 50%;
+    padding: 1rem 1.15rem;
+    /* Add position fixed when needed */
+}
+
+.btn-fab:hover {
+    box-shadow: 1px 1px 5px var(--darkBg), -1px -1px 5px var(--darkBg);
+}

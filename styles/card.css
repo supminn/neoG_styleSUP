@@ -1,0 +1,100 @@
+.card,
+.card-horizontal {
+    border: 1px solid var(--theme900);
+    padding: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme50);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 2px 2px 10px var(--theme300);
+    position: relative;
+    min-width: 15rem;
+}
+
+.card {
+    max-width: 20rem;
+    flex-direction: column;
+}
+
+.card-horizontal {
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 100%;
+    min-width: 15rem;
+    height: auto;
+    border-radius: 1rem;
+    align-self: center;
+}
+
+.card-txt-container {
+    padding: 0 0.5rem;
+}
+
+.card-badge {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: max-content;
+    padding: 0.14rem;
+    border: unset;
+    margin: unset;
+    line-height: initial;
+    border-radius: unset;
+    font-size: 0.7em;
+}
+
+.card-badge:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 0;
+    border-width: 0.6rem 0.4rem;
+    border-color: rgba(35, 91, 247, 0.7) transparent rgba(35, 91, 247, 0.7) rgba(19, 69, 207, 0.9);
+    border-style: solid;
+}
+
+.card-price {
+    font-size: 1.1em;
+}
+
+.card-desc {
+    padding: 0.4rem 0;
+}
+
+.btn-dismiss {
+    padding: 0.1rem 0.4rem 0.2rem 0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-dismiss:hover {
+    background-color: var(--secondaryTxt);
+    color: var(--secondaryBg);
+    text-decoration: unset;
+}
+
+.card-shadow:hover {
+    box-shadow: 5px 5px 10px var(--theme300), -5px -5px 10px var(--theme300);
+}
+
+.txt-overlay {
+    position: absolute;
+    color: var(--theme200);
+    top: 30%;
+    right: 20%;
+}
+
+@media screen and (max-width: 576px) {
+    .card-horizontal {
+        flex-direction: column;
+        max-width: 20rem;
+    }
+}

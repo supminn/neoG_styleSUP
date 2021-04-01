@@ -1,0 +1,13 @@
+.img {
+  max-width: 40rem;
+  min-width: 15rem;
+}
+
+.img-res {
+  width: 100%;
+  height: auto;
+}
+
+.img-rd {
+  border-radius: 50%;
+}

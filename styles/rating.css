@@ -1,0 +1,18 @@
+.rating {
+    color: var(--theme200);
+    cursor: pointer;
+}
+
+.rating>.fa-star:hover,
+.rating-checked {
+    color: var(--primaryBg);
+}
+
+.rating-block {
+    font-weight: bold;
+    color: var(--primaryBg);
+    background-color: var(--theme100);
+    padding: 0.3rem;
+}
+
+/* add script to choose upto x stars */
