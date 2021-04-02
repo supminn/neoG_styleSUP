@@ -29,9 +29,11 @@ section {
 .link {
     width: max-content;
 }
-.sec-instruction{
+
+.sec-instruction {
     padding: 1rem;
 }
+
 .footer {
     background-color: var(--theme900);
     text-align: center;
@@ -46,16 +48,26 @@ section {
     padding: 0 0.5rem;
 }
 
+.list-item {
+    border: transparent;
+}
+
+.list-item:hover {
+    background-color: var(--theme100);
+}
+
 @media screen and (min-width: 768px) {
-    .sec-intro{
+    .sec-intro {
         flex-direction: row;
         justify-content: space-between;
         padding: 1rem;
     }
-    .img-svg{
+
+    .img-svg {
         width: 50%;
     }
-    .txt-container{
+
+    .txt-container {
         padding: 0 1rem;
     }
 }
