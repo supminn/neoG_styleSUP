@@ -27,6 +27,7 @@
 
 .list-item:hover {
     background-color: var(--primaryTxt);
+    color: var(--secondaryTxt);
     cursor: pointer;
 }
 

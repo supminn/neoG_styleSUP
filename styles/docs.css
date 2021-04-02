@@ -30,8 +30,8 @@ section {
 #list-nav-main {
     padding-inline-start: 0;
     position: fixed;
-    top: 8%;
-    left: 2%;
+    top: 8.5%;
+    left: 0;
     z-index: 1;
     width: 100%;
 }
