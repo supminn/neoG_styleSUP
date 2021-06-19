@@ -22,10 +22,4 @@ src="https://stylesup.netlify.app/scripts/script.js">
 ### Live Link & Preview
 [Deployed Link](https://stylesup.netlify.app/)
 
-Following is the preview of styleSUP version 1.0
-### Desktop Preview
-![Desktop View](images\desktop-preview.png)
-
-### Mobile Preview
-![Mobile View](images\mobile-preview.png)
-
+https://user-images.githubusercontent.com/30731236/122638879-62149800-d114-11eb-98d0-61ddec00e22a.mp4
