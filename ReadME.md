@@ -1,7 +1,7 @@
-# styleSUP - CSS Component Library
+[![wakatime](https://wakatime.com/badge/github/supminn/neoG_styleSUP.svg)](https://wakatime.com/badge/github/supminn/neoG_styleSUP)
+# StyleSUP
 
-styleSUP is a CSS Component library developed during the course of neoG camp. It is created purely based on HTML and CSS.
-The main inspiration for ideas are taken from [Bootstrap](https://getbootstrap.com/);
+styleSUP is a CSS Component library created purely based on HTML and CSS. The inspiration for ideas are taken from [Bootstrap](https://getbootstrap.com/);
 
 ## Get Started
 
@@ -19,14 +19,13 @@ src="https://stylesup.netlify.app/scripts/script.js">
 ```
 > Note: Add the JavaScript code snippet just before the `</body>` such that all the components work well.
 
-## Preview 
-Following is the preview of styleSUP version 1.0
+### Live Link & Preview
+[Deployed Link](https://stylesup.netlify.app/)
 
+Following is the preview of styleSUP version 1.0
 ### Desktop Preview
 ![Desktop View](images\desktop-preview.png)
 
 ### Mobile Preview
 ![Mobile View](images\mobile-preview.png)
 
-### Live Link
-Currently, this library is under Pull Request (PR) Review, hence you can find the [deployed version](https://deploy-preview-1--stylesup.netlify.app/).
